@@ -8,22 +8,22 @@ export function useSeoProps(
 ): Partial<ComponentProps<typeof NextSeo>> {
 	const router = useRouter();
 
-	const title = 'Portfolio of Jeff Graves';
-	const description = "Hello 👋 I'm Jeff, a Full Stack Developer!";
+	const title = 'Portfolio of Justin Chu';
+	const description = "Hello 👋 I'm Justin, a Blockchain Full Stack Developer!";
 
 	return {
 		title,
 		description,
-		canonical: `https://nuro.dev/${router.asPath}`,
+		canonical: `https://justin-chu.web.app/${router.asPath}`,
 		openGraph: {
 			title,
 			description,
-			site_name: 'nuro',
-			url: `https://nuro.dev/${router.asPath}`,
+			site_name: 'justin',
+			url: `https://justin-chu.web.app/${router.asPath}`,
 			type: 'website',
 			images: [
 				{
-					url: 'https://nuro.dev/banner.png',
+					url: 'https://justin-chu.web.app/banner.png',
 					alt: description,
 					width: 1280,
 					height: 720,

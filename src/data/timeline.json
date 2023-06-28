@@ -1,64 +1,63 @@
 [
 	{
 		"date": "04-28-2023",
-		"title": "Seeking for a New Job",
-		"description": "Want to Find a Job I Can Really Contribute to the World!",
+		"title": "Self Employed",
+		"description": "Seeking for New Opportunity I Can Really Contribute to the World!",
 		"icon": "feather:briefcase"
 	},
 	{
-		"date": "04-30-2021",
-		"title": "Started @ 15Five Inc.",
-		"description": "Worked as a Senior Full Stack Developer",
+		"date": "04-45-2020",
+		"title": "Joined in Coinbase",
+		"description": "Worked as a Blockchain Developer in Coinbase",
 		"done": [
-			"Designed, developed and modified 7+ software systems and custom components.",
-			"Used JavaScript frameworks ՄReactJS, AngularJS, Vue.js), TypeScript, Node.js and web3.js to interact with the Blockchain network.",
-			"Developed 5+ full-stack web applications which processed, analyzed and rendered data visually.",
-			"Planned, wrote and debugged 12+ web applications and software with complete accuracy."
+			"Designed and developed 5+ decentralized applications on Ethereum, Polkadot, and Binance Smart Chain using Truffle, Remix, and Web3.js.",
+			"Led the development of a supply chain management application for a major food processing company that resulted in cost savings of $500K/year and improved transparency for customers.",
+			"Integrated front-end interfaces with blockchain networks to create seamless user experiences and increased user engagement by 30%.",
+			"Collaborated with cross-functional teams including product managers, designers, and business stakeholders to deliver high-quality products on-time and within budget."
 		],
 		"icon": "feather:briefcase"
 	},
 	{
-		"date": "01-15-2019",
-		"title": "Promoted to Full Stack!",
-		"description": "Continued work as a Full Stack Developer at Nexify Ltd.",
+		"date": "02-15-2019",
+		"title": "Changed way to Blockchain!",
+		"description": "Started working as a Blockchain Consultant at Yojee.",
 		"done": [
-			"Maximized 4+ application's efficiency data quality, scope, operability, and flexibility.",
-			"Used various ideas from distributed computing, large-scale design, real-time data processing, data storage, ML, and AI to solve challenging dataset problems.",
-			"Developed app integration with REST / SOAP and other APIs for Google Maps, social media logins, payment processors and other services.",
-			"Managed, optimized and updated 9+ PHP databases as necessary."
+			"Conducted technical feasibility assessments and advised 15+ enterprise clients in industries such as finance, healthcare, and logistics on blockchain adoption strategies.",
+			"Evaluated 10+ different blockchain protocols and platforms and helped clients navigate regulatory and compliance issues related to blockchain implementations.",
+			"Developed proofs-of-concept and prototypes for 5+ clients to demonstrate the potential of blockchain technology in solving specific business problems.",
+			"Worked closely with clients to understand their needs and requirements and provided customized solutions that resulted in an average cost saving of $200K/year per client."
 		],
 		"icon": "feather:briefcase"
 	},
 	{
-		"date": "04-20-2018",
+		"date": "07-20-2015",
 		"title": "First Developer Role",
-		"description": "Began an Internship as a Backend Developer working at Nexify Ltd.",
+		"description": "Started career as a Full Stack Developer working at Lightcurve.",
 		"done": [
-			"Optimized SQL queries for the heavy-load parts of the system which improved website responsiveness and reduced the database costs by 20%.",
-			"Developed and maintained 10+ websites using ASP.NET MVC and SQL Server.",
-			"Developed a platform for e-Commerce digital distribution used by 200,000 users worldwide, employing .NET and Azure cloud infrastructure.",
-			"Provided infrastructure and integration guidelines for load-balancing and web farm deployment.",
-			"Designed an integrated database using MongoDB, MySQL, and PostgreSQL that leveraged the React architecture to yield on-demand detailed feedback.",
-			"Designed and implemented scalable backend for 5 business-critical websites."
+			"Built and maintained 10+ web applications using modern JavaScript frameworks like React and AngularJS.",
+			"Developed 20+ RESTful APIs to connect front-end interfaces to back-end services.",
+			"Created and managed 5+ relational databases using SQL and NoSQL technologies like MySQL and MongoDB.",
+			"Implemented Agile development methodologies including Scrum and Kanban to ensure timely and efficient delivery of products.",
+			"Worked closely with 10+ stakeholders to gather requirements, identify areas for improvement, and implement solutions that increased user satisfaction by 20%."
 		],
 		"icon": "feather:briefcase"
 	},
 	{
-		"date": "04-04-2018",
+		"date": "06-04-2015",
 		"title": "Got Bachelor's Degree in Computer Science",
 		"description": "Graduated Hong Kong University of Science and Technology",
 		"icon": "feather:award"
 	},
 	{
-		"date": "09-10-2014",
+		"date": "05-10-2011",
 		"title": "Entered University",
-		"description": "Began Studying Mathematics and Computer Science at Hong Kong University of Science and Technology",
+		"description": "Began Studying Mathematics and Computer Science at The University of Hong Kong",
 		"icon": "feather:book"
 	},
 	{
-		"date": "03-30-1997",
+		"date": "03-30-1993",
 		"title": "Birthday!",
-		"description": "I was born on 8th of March 1997",
+		"description": "I was born on 30th of March 1993",
 		"icon": "feather:gift"
 	}
 ]

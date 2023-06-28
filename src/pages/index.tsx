@@ -49,116 +49,128 @@ const ACTIONS: Array<NavigationItem> = [
 
 export default function HomePage(): JSX.Element {
 	const today = new Date();
-	const birthday = new Date('1997-03-30');
+	const birthday = new Date('1993-03-30');
 	const age = differenceInYears(today, birthday);
 	const isBirthday =
 		today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
 
-	const description = `I am a ${age} year old Full-Stack Developer`;
+	const description = `I am a ${age} year old Blockchain Full Stack Developer`;
 	const skills = [
-		{
-			name: 'HTML5',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg',
-		},
-		{
-			name: 'CSS3',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg',
-		},
-		{
-			name: 'PHP',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg',
-		},
 		{
 			name: 'JavaScript',
 			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg',
 		},
 		{
-			name: 'React',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg',
+			name: 'TypeScript',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg',
 		},
 		{
-			name: 'React Native',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg',
+			name: 'Solidity',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg',
 		},
 		{
-			name: 'Next.js',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg',
+			name: 'Rust',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg',
 		},
 		{
-			name: 'AngularJS',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg',
-		},
-		{
-			name: 'jQuery',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original.svg',
-		},
-		{
-			name: 'Node.js',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg',
-		},
-		{
-			name: 'Express.js',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg',
+			name: 'Golang',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg',
 		},
 		{
 			name: 'Python',
 			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg',
 		},
 		{
-			name: 'Java',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg',
+			name: 'Node.js',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg',
 		},
 		{
-			name: 'Laravel',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain.svg',
+			name: 'React',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg',
 		},
 		{
-			name: 'MySQL',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg',
+			name: 'AngularJS',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg',
 		},
 		{
-			name: 'SQLite',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg',
+			name: 'Express.js',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg',
 		},
 		{
-			name: 'PostgreSQL',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg',
+			name: 'Tailwind CSS',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg',
+		},
+		{
+			name: 'Sass',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg',
+		},
+		{
+			name: 'Docker',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg',
 		},
 		{
 			name: 'MongoDB',
 			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg',
 		},
 		{
+			name: 'PostgreSQL',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg',
+		},
+		{
+			name: 'Firebase',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg',
+		},
+		{
+			name: 'MySQL',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg',
+		},
+		{
+			name: 'AWS Amplify',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/amplify/amplify-original.svg',
+		},
+		{
+			name: 'PowerShell',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/powershell/powershell-original.svg',
+		},
+		{
 			name: 'GraphQL',
 			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain.svg',
 		},
 		{
+			name: 'REST API',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/api/api-original.svg',
+		},
+		{
+			name: 'OpenZeppelin',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/openzeppelin/openzeppelin-original.svg',
+		},
+		{
 			name: 'Web3.js',
-			icon: '/icons/web3.svg',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/web3js/web3js-original.svg',
 		},
 		{
 			name: 'Ethers.js',
-			icon: '/icons/ethers.svg',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/ethereum/ethereum-original.svg',
 		},
 		{
-			name: 'RESTful API',
-			icon: '/icons/rest-api.svg',
+			name: 'Hardhat',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/hardhat/hardhat-original.svg',
 		},
 		{
-			name: 'Security Implementation',
-			icon: '/icons/security.svg',
+			name: 'Truffle',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/truffle/truffle-original.svg',
 		},
 		{
-			name: 'Git/GitHub',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg',
+			name: 'Remix',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/remix/remix-original.svg',
 		},
 		{
-			name: 'UX/UI Design',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg',
+			name: 'Agile',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/agile/agile-original.svg',
 		},
 		{
-			name: 'Linux',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg',
+			name: 'Scrum',
+			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/scrum/scrum-original.svg',
 		},
 	];
 
@@ -194,7 +206,7 @@ export default function HomePage(): JSX.Element {
 						Hello{' '}
 						<span className="inline-block origin-70 hover:(animate-wave)">👋</span>{' '}
 						I&apos;m
-						<Pill.Standard className="mt-4">Jeff Graves</Pill.Standard>
+						<Pill.Standard className="mt-4">Justin Chu</Pill.Standard>
 					</Animate>
 
 					<Animate

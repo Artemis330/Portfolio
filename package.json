@@ -1,10 +1,10 @@
 {
 	"private": true,
-	"name": "portfolio-jeff",
+	"name": "justin-chu",
 	"version": "2.1.2",
-	"description": "Hello 👋 I'm Jeff, a Full Stack Developer!",
+	"description": "Hello 👋 I'm Justin, a Blockchain Full Stack Developer!",
 	"repository": "https://github.com/Artemis330/Portfolio.git",
-	"author": "Jeff",
+	"author": "justin",
 	"license": "ISC",
 	"prettier": {
 		"arrowParens": "always",

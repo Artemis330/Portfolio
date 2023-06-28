@@ -72,8 +72,8 @@ export const getStaticProps: GetStaticProps<ProjectProps> = () => {
 		{
 			description: '  Personal portfolio that you see now!😉 ',
 			icon: '🌿',
-			homepage: 'https://about-jeff.web.app',
-			name: 'Jeff Graves Portfolio',
+			homepage: 'https://justin-chu.web.app',
+			name: 'Justin Chu Portfolio',
 			post: undefined,
 			template: false,
 			url: '',
@@ -92,7 +92,7 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps): JSX
 	const projects = JSON.parse(stringifiedProjects) as Array<Project>;
 
 	return (
-		<Layout.Default seo={{ title: 'nuro ─ projects' }}>
+		<Layout.Default seo={{ title: 'justin ─ projects' }}>
 			<div className="my-24 mx-2 sm:mx-6 lg:mb-28 lg:mx-8">
 				<div className="relative max-w-xl mx-auto">
 					<List.Container>
