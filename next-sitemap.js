@@ -1,5 +1,5 @@
 const isProduction = process.env.NODE_ENV === 'production';
-const domain = isProduction ? 'justin-chu.web.app' : 'localhost:3000';
+const domain = isProduction ? 'justin-chu-portfolio.web.app' : 'localhost:3000';
 const protocol = isProduction ? 'https' : 'http';
 
 /**

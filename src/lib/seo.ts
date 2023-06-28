@@ -14,16 +14,16 @@ export function useSeoProps(
 	return {
 		title,
 		description,
-		canonical: `https://justin-chu.web.app/${router.asPath}`,
+		canonical: `https://justin-chu-portfolio.web.app/${router.asPath}`,
 		openGraph: {
 			title,
 			description,
 			site_name: 'justin',
-			url: `https://justin-chu.web.app/${router.asPath}`,
+			url: `https://justin-chu-portfolio.web.app/${router.asPath}`,
 			type: 'website',
 			images: [
 				{
-					url: 'https://justin-chu.web.app/banner.png',
+					url: 'https://justin-chu-portfolio.web.app/banner.png',
 					alt: description,
 					width: 1280,
 					height: 720,

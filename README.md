@@ -38,4 +38,4 @@ yarn build
 
 Live Demo
 
-https://justin-chu.web.app
+https://justin-chu-portfolio.web.app

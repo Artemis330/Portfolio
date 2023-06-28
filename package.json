@@ -1,6 +1,6 @@
 {
 	"private": true,
-	"name": "justin-chu",
+	"name": "justin-chu-portfolio",
 	"version": "2.1.2",
 	"description": "Hello 👋 I'm Justin, a Blockchain Full Stack Developer!",
 	"repository": "https://github.com/Artemis330/Portfolio.git",
@@ -75,7 +75,7 @@
 		"@typescript-eslint/eslint-plugin": "^5.38.0",
 		"@typescript-eslint/parser": "^5.38.0",
 		"eslint": "8.10.0",
-		"eslint-config-next": "12.1.0",
+		"eslint-config-next": "^12.0.4",
 		"gray-matter": "^4.0.3",
 		"next-sitemap": "^2.5.4",
 		"node-fetch": "^3.2.10",

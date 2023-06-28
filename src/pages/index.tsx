@@ -24,7 +24,7 @@ const ACTIONS: Array<NavigationItem> = [
 		type: NavigationItemType.LINK,
 		href: '/timeline',
 		icon: <Icon className="mr-3" icon="feather:clock" />,
-		text: 'Experience',
+		text: 'History',
 	},
 	{
 		type: NavigationItemType.LINK,
@@ -97,10 +97,6 @@ export default function HomePage(): JSX.Element {
 			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg',
 		},
 		{
-			name: 'Tailwind CSS',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg',
-		},
-		{
 			name: 'Sass',
 			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg',
 		},
@@ -125,53 +121,9 @@ export default function HomePage(): JSX.Element {
 			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg',
 		},
 		{
-			name: 'AWS Amplify',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/amplify/amplify-original.svg',
-		},
-		{
-			name: 'PowerShell',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/powershell/powershell-original.svg',
-		},
-		{
 			name: 'GraphQL',
 			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain.svg',
-		},
-		{
-			name: 'REST API',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/api/api-original.svg',
-		},
-		{
-			name: 'OpenZeppelin',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/openzeppelin/openzeppelin-original.svg',
-		},
-		{
-			name: 'Web3.js',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/web3js/web3js-original.svg',
-		},
-		{
-			name: 'Ethers.js',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/ethereum/ethereum-original.svg',
-		},
-		{
-			name: 'Hardhat',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/hardhat/hardhat-original.svg',
-		},
-		{
-			name: 'Truffle',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/truffle/truffle-original.svg',
-		},
-		{
-			name: 'Remix',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/remix/remix-original.svg',
-		},
-		{
-			name: 'Agile',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/agile/agile-original.svg',
-		},
-		{
-			name: 'Scrum',
-			icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/scrum/scrum-original.svg',
-		},
+		}
 	];
 
 	const responsive: ResponsiveType = {

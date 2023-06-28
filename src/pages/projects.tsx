@@ -72,7 +72,7 @@ export const getStaticProps: GetStaticProps<ProjectProps> = () => {
 		{
 			description: '  Personal portfolio that you see now!😉 ',
 			icon: '🌿',
-			homepage: 'https://justin-chu.web.app',
+			homepage: 'https://justin-chu-portfolio.web.app',
 			name: 'Justin Chu Portfolio',
 			post: undefined,
 			template: false,
